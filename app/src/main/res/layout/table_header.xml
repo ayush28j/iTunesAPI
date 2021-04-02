@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/wrapperType"
+        android:text="WrapperType"
+        android:background="@drawable/rounded_corners"
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/kind"
+        android:text="Kind"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/artistId"
+        android:text="ArtistId"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/collectionId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CollectionId"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/trackId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TrackId"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/artistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ArtistName"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/collectionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CollectionName"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/trackName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TrackName"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/collectionCensoredName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CollectionCensoredName"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/trackCensoredName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TrackCensoredName"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/artistViewUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ArtistViewUrl"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/collectionViewUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CollectionViewUrl"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/trackViewUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TrackViewUrl"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/previewUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PreviewUrl"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/artworkUrl30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ArtworkUrl30"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/artworkUrl60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ArtworkUrl60"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/artworkUrl100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ArtworkUrl100"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/collectionPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CollectionPrice"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/trackPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TrackPrice"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/releaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ReleaseDate"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/collectionExplicitness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CollectionExplicitness"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/trackExplicitness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TrackExplicitness"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/discCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DiscCount"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/discNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DiscNumber"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/trackCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TrackCount"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/trackNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TrackNumber"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/trackTimeMillis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TrackTimeMillis"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/primaryGenreName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PrimaryGenreName"
+        android:background="@drawable/rounded_corners"
+        
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+    <TextView
+        android:id="@+id/isStreamable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IsStreamable"
+        android:background="@drawable/rounded_corners"
+
+        android:padding = "4dp"
+        android:gravity="center"
+        android:maxEms="24"/>
+
+</TableRow>
